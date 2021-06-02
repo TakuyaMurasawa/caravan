@@ -59,7 +59,7 @@ header{
     margin-top: 30px;
 }
 
-.main{
+main{
     width: 800px;
     display: flex;
     justify-content: center;/*要素の横並び中央寄せ*/
@@ -73,9 +73,48 @@ header{
 }
 
 .blog-heading{
-    border-bottom: 8px solid black;
+    border-bottom: 8px solid #f7f7f7;
     text-align: center;
     line-height: 0.6;
+}
+
+.blog-box{
+    padding-top: 50px;
+}
+
+.blog-item{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+.blog-image{
+    height: 180px;
+}
+
+.blog-text{
+    padding: 25px 0 0 30px;
+}
+
+.blog-text-heading{
+    padding-bottom: 15px;
+}
+
+.blog-date{
+    display: inline-block;
+}
+
+.category{
+    color: white;
+    background-color: grey;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 11px;
 }
 
 .sidebar{
